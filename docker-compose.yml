@@ -57,7 +57,7 @@
      - shipyard-rethinkdb:rethinkdb
      - shipyard-swarm-manager:swarm
     ports:
-      - 8080:8080
+      - 1000:1000
     command: server -d tcp://swarm:3375
     
     
